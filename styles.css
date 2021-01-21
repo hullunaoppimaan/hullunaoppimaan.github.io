@@ -78,7 +78,8 @@ p {
 
 .header_nav > div {
     flex: 1 1 auto;
-    min-width: 9rem;    
+    min-width: 9rem;
+    width: 80%;    
     text-align: center;
     margin: 0 0.75rem;
     color: #fff;
@@ -144,7 +145,7 @@ p {
     padding: 0 0;   
 }
 
-.card {
+.card, .imgcard {
     border: 1px solid #999999;
 }
 
@@ -213,7 +214,13 @@ p {
     float: none;
     width: 100%;
     max-width: 15rem;    
-    margin-top: 0;
+    margin-top: 1rem;
+
+}
+
+.img_float-big {
+    max-width: 25rem;
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -224,7 +231,7 @@ p {
     }
 
     .header_nav div {
-        max-width: 9rem;
+        max-width: 12rem;
     }
 
 }
