@@ -114,7 +114,7 @@ p {
 .footer_text {    
     padding: 1em;
     font-size: 80%;
-    color: #fff;
+    color: rgba(255,255,255,0.75);
     text-align: center;
 }
 
@@ -149,6 +149,17 @@ p {
 .section_content ul li {
     margin-bottom: 0.3rem;
 }
+
+.section_content ul li a {
+    color: #009999;
+    text-decoration: none;
+}
+
+.section_content ul li a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
 
 
 .cards {
@@ -253,6 +264,10 @@ p {
 .img_float-big {
     max-width: 25rem;
     
+}
+
+.linkcard ul  {
+    list-style-type: none;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
