@@ -160,7 +160,37 @@ p {
     text-decoration: none;
 }
 
+.block {
+    display: block;
+}
 
+.float-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+.linkbox {
+    text-decoration: none;
+    transform: rotate(-4deg);
+}
+
+.linkbox:hover .linkbox_frame {
+    background-color: black;
+}
+
+.linkbox_frame {
+    max-width: 12rem;
+    display: flex;
+    border-radius: 0.5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 6px#999;
+}
+
+.linkbox_frame > div {
+    text-align: center;
+}
 
 .cards {
     display: grid;
@@ -170,6 +200,16 @@ p {
     padding: 0 0.75rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+.cards2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: auto;     
+    grid-gap: 1rem;  
+    padding: 0 0.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;  
 }
 
 .card, .imgcard {
